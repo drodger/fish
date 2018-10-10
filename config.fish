@@ -22,9 +22,9 @@ set fish_color_command c397d8
 set fish_color_autosuggestion 969896
 
 # Handle 'st' terminal from fish
-if string match -q "st-*" "$TERM"
-    set -e VTE_VERSION
-end
+# if string match -q "st-*" "$TERM"
+#     set -e VTE_VERSION
+# end
 
 # content has to be in .config/fish/config.fish
 # if it does not exist, create the file
