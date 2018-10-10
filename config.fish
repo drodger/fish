@@ -17,6 +17,10 @@ alias c='clear'
 alias s='sudo'
 alias venv='source ./venv/bin/activate.fish'
 
+# colors
+set fish_color_command c397d8
+set fish_color_autosuggestion 969896
+
 # Handle 'st' terminal from fish
 if string match -q "st-*" "$TERM"
     set -e VTE_VERSION
