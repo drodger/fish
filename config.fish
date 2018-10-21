@@ -1,7 +1,7 @@
 set -g -x PATH /usr/local/bin $HOME/bin $PATH
 set -g -x LD_LIBRARY_PATH /usr/local/lib64/
 
-source ~/.local/share/icons-in-terminal/icons.fish
+# source ~/.local/share/icons-in-terminal/icons.fish
 
 alias cl='/opt/coreutils/bin/ls'
 alias ll='ls -alhF'
