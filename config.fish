@@ -16,6 +16,7 @@ alias nq='nvim-qt'
 alias c='clear'
 alias s='sudo'
 alias venv='source ./venv/bin/activate.fish'
+alias :e='nvim'
 
 # colors
 set fish_color_command c397d8
