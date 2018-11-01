@@ -1,6 +1,6 @@
 set -g -x PATH /usr/local/bin $HOME/bin $PATH
 set -g -x LD_LIBRARY_PATH /usr/local/lib64/
-
+set -g -x BAT_PAGER less
 # source ~/.local/share/icons-in-terminal/icons.fish
 
 alias cl='/opt/coreutils/bin/ls'
